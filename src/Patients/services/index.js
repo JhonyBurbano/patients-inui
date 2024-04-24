@@ -53,8 +53,6 @@ export const updatePatient = async (patientId, data) => {
       },
       data: JSON.stringify(data),
     });
-    console.log('data params ', patientId ,data)
-    console.log("update response", response)
     return response.data
   } catch (error) {
     console.log('Error update - ', error);
@@ -81,7 +79,6 @@ export const createNote = async (note) => {
       data: JSON.stringify(note),
     });
     return response.data
-    console.log(response)
   } catch (error) {
     console.log(error);
   }

@@ -31,7 +31,6 @@ export const PatientsModal = ({ open, onClose, dataPatient }) => {
     try {
       if (dataPatient?.id) {
         const dataNotes = await PatientServer.notesOfPatient(dataPatient?.id);
-        console.log("Api ==== ", dataNotes);
         const data = dataNotes.length <= 0 ? [] : dataNotes;
         setNotes(data);
       }

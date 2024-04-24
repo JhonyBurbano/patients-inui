@@ -55,7 +55,7 @@ const PatientForm = () => {
       ...formData,
       birthday: formData.birthday.format("DD/MM/YYYY"),
     };
-    console.log("form - ", newFomratData);
+
     try {
       if (!params.id) {
         const res = await PatientServer.registerPatient(newFomratData);

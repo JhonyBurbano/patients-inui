@@ -9,8 +9,6 @@ import {
   styled,
   tableCellClasses,
 } from "@mui/material";
-import Chip from "@mui/material/Chip";
-import { STATUS } from "../constanst";
 
 const StyledTableRow = styled(TableRow)(({ theme }) => ({
   "&:nth-of-type(odd)": {
@@ -59,10 +57,6 @@ export const GlobalTable = ({ data, columns, handleId }) => {
                     ) : (
                       obj?.[column?.key]
                     )}
-                    {/* <Chip
-                      label="Chip Filled"
-                      style={{ backgroundColor: "red" }}
-                    /> */}
                   </StyledTableCell>
                 ))}
               </StyledTableRow>
