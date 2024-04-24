@@ -1,0 +1,41 @@
+/* mis-estilos.css */
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-button-close {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  margin-left: 30px;
+}
+
+.close-icon{
+  color: red !important;
+}
+
+.paper-principal {
+  width: 400px;
+  height: fit-content;
+  max-height: 700px;
+  overflow: auto;
+}
+.title-principal {
+  color: #0e4c81;
+  text-align: center;
+  margin-top: 0 !important;
+}
+
+.title-name {
+  color: #0e4c81;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 0 !important;
+}
+
+.patient-data {
+  font-size: 14px;
+  margin-top: 0 !important;
+}
