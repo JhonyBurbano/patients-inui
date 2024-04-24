@@ -1,3 +1,13 @@
+## Description
+Show the patients and allow create, delete and update also create note for patient
+
+## Install
+## Install dependencies:
+``$ npm i ``
+
+## Build Api
+``npm run dev``
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
